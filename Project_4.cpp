@@ -14,8 +14,8 @@ int main()
    cout<<"Enter value of h: "<<endl;
    cin>>h;
    parameter=a+b+c+d;
-   cout<<"parameter of trapezoid:"<<parameter<<endl;
+   cout<<"Parameter of trapezoid:"<<parameter<<endl;
    area=h*a*0.5+h*b*0.5;
-   cout<<"area of trapezoid: "<<area<<endl;
+   cout<<"Area of trapezoid: "<<area<<endl;
     return 0;
 }
