@@ -12,4 +12,5 @@ parameter=2*a+2*b;
 cout<<"Parameter of Parallelogram:"<<parameter<<endl;
 area=b*h;
 cout<<"Area of Parallelogram: "<<area;
-return 0;}
+return 0;
+}
