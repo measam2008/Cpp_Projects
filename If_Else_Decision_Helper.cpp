@@ -12,7 +12,7 @@ int main()
    cout<<"Are you feeling sick?(y/n) ";
    cin>>sick;
    
-   if(weekday=='Y' && weekday=='y' && exam=='Y' &&  exam=='y' && sick=='N' && sick=='n')
+   if(weekday=='Y' || weekday=='y' || exam=='Y' ||  exam=='y' || sick=='N' || sick=='n')
    {
        cout<<"Set alarm for 6 AM.";
    }
