@@ -7,6 +7,6 @@ I'm a passionate **programmer** currently focused on developing my skills in **C
 - 📚 Always exploring new technologies and improving my coding skills
 - 🌐 Connect with me:
  
-  
-[![Instagram](https://raw.githubusercontent.com/your-username/your-repo/main/assets/instagram.png)](https://www.instagram.com/fashion_covers_1)
-[![WhatsApp](https://raw.githubusercontent.com/your-username/your-repo/main/assets/whatsapp.png)](https://wa.me/+923155887015)
+
+  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/fashion_covers_1)
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-%25%23425C36.svg?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+923155887015)
