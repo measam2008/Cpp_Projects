@@ -6,9 +6,7 @@ int main()
     int x;
     cout<<"Enter any number from 1 to 4: "<<endl;
     cin>>x;
-    if(x==1||x==2||x==3||x==4)
-    {
-        if(x==1)
+    if(x==1)
         {
              float area, r;
             cout<<"Enter radius of Circle: ";
@@ -17,7 +15,7 @@ int main()
             cout<<"Area of Circle: "<<area<<endl;
 
         }
-        else if(x==2)
+    else if(x==2)
         {
             float area,b,h;
         cout<<"Enter value of base of triangle: ";
@@ -29,7 +27,7 @@ int main()
 
 
         }
-        else if (x==3)
+    else if (x==3)
         {
             float b,h,area;
             cout<<"Enter value of base of Parallelogram: ";
@@ -39,7 +37,7 @@ int main()
             area=b*h;
             cout<<"Area of Parallelogram: "<<area<<endl;
         }
-        else 
+    else if(x == 4)
         {
             float area,a,b,h;
             cout<<"Enter value of b: ";
@@ -51,13 +49,11 @@ int main()
             area=h*a*0.5+h*b*0.5;
             cout<<"Area of trapezoid: "<<area<<endl;
         }
-
-    }
     else
-    {
+        {
         cout<<"Invalid Input"<<endl;
 
-    }
+        }
 
     return 0;
 
