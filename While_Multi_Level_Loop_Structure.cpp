@@ -4,7 +4,7 @@ int main()
 {
     int x,y,a,b,c,d,e,f,g,h,i,j,k,l;
     x=1;
-    a=5;
+    a=5;                
     c=5;
     e=5;
     g=1;
