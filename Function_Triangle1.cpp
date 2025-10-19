@@ -6,8 +6,8 @@ int sqr(int,int);
 int main()
 {
     int x,y;
-    x=0;
-    y=4;
+    x=1;
+    y=0;
     sqr(x,y);
 
 
@@ -16,24 +16,22 @@ int main()
 
 int sqr(int n , int rn)
 {
-    if (n==5)
+    if (n==6)
     {
         return 0;
     }
-    else{
-    rows(rn);
-    cout<<endl;
-    return sqr(n+1,rn-1);
-    }
-}
-int rows(int r)
-{
-    if (r==5)
+    else
     {
-        return 0;
-    }
-    else{
-    cout<<"*";
-    return rows(r+1);
+        if(rn==n)
+        {
+            cout<<endl;
+            return sqr(n+1,0);
+        }
+        else
+        {
+            cout<<"*";
+            return sqr(n,rn+1);
+        }
+        
     }
 }
