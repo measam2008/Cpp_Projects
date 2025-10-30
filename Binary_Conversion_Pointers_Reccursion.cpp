@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int Binary(int* );
+void Binary(int* );
 int main()
 {
     int x;
@@ -12,25 +12,25 @@ int main()
 
     return 0;
 }
-int Binary(int* xptr)
+void Binary(int* xptr)
 {
     if (*xptr == 0)
     {
-        return 0;
+        return;
     }else
     {
         if(*xptr % 2==0)
         {
-            cout<<"0";
+            
             *xptr /=2;
-            return Binary(xptr);
-
+             Binary(xptr);
+            cout<<"0";
         }else
         {
-            cout<<"1";
+            
             *xptr /=2;
-            return Binary(xptr);
-
+            Binary(xptr);
+            cout<<"1";
         }
         
     }
